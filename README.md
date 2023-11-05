@@ -4,8 +4,11 @@
 ***
 ## What is it?
 This git contains different python script to manage pictures.
-- MonoExifer ask you for each picture while MultiExifer apply the same change on all selected pictures.
-- PictureRenamer rename all pictures of a selected folder automatically using metadata. 
+- MonoExifer : Ask you the metadata you want for each pictures of a directory. (windows only)
+- NoExifMonoExifer : Ask you the metadata you want for each pictures without metadata of a directory. (windows only)
+- MultiExifer : Ask you the metadata you want for all pictures of a directory. (windows only)
+- NoExifMultiExifer : Ask you the metadata you want for all pictures without metadata of a directory. (windows only)
+- PictureRenamer : Rename all pictures of a selected folder automatically using metadata. (windows/linux)
 ***
 ## What do you need in order to use them?
 - python3 (*of course*)
