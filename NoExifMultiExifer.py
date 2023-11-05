@@ -18,7 +18,6 @@ def dd_to_dms(dd):
     return degrees, minutes, seconds
 
 def check_metadata_is_null(image):
-
     if (image.gps_latitude is None or
         image.gps_longitude is None or
         image.gps_latitude_ref is None or
